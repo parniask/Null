@@ -19,3 +19,16 @@ d = float("3.8") # d will be 3.8
 e = str("P8") # e will be 'P8'
 f = str(5)    # f will be '5'
 h = str(12.0)  # h will be '12.0'
+
+I = " Hello, World! "
+print(I.strip())    # The strip() method removes any whitespace from the beginning or the end
+
+J = "Hello, World!"
+print(J.lower())    # The lower() method returns the string in lower case
+                    # The upper() method returns the string in upper case
+                    
+K = "Hello, World!"
+print(K.replace("H", "J"))
+
+L = "Hello, World!"
+print(L.split(",")) # returns ['Hello', ' World!']   #The split() method splits the string into substrings if it finds instances of the separator
