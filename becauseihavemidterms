@@ -1,5 +1,5 @@
-_num = 8  #A variable name must start with a letter or the underscore character
-          #A variable name cannot start with a number
+_num = 8  # A variable name must start with a letter or the underscore character
+          # A variable name cannot start with a number
           
 x = 35e3
 y = 12E4
@@ -8,3 +8,14 @@ z = -87.7e100
 print(x)
 print(y)
 print(z)
+
+a = int(8.1) # a will be 8
+b = int("4") # b will be 4
+
+
+c = float("3")   # c will be 3.0
+d = float("3.8") # d will be 3.8
+
+e = str("P8") # e will be 'P8'
+f = str(5)    # f will be '5'
+h = str(12.0)  # h will be '12.0'
