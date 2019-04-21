@@ -32,3 +32,7 @@ print(K.replace("H", "J"))
 
 L = "Hello, World!"
 print(L.split(",")) # returns ['Hello', ' World!']   #The split() method splits the string into substrings if it finds instances of the separator
+
+print("Enter your name:")
+x = input()
+print("Hello, ", x)
